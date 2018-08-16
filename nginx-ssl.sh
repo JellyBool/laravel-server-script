@@ -13,7 +13,7 @@ sudo apt-get update
 
 printf "${YELLOWCOLOR}Installing certbot nginx ${NC} \n"
 
-sudo apt-get install python-certbot-nginx
+sudo apt-get install python-certbot-nginx -y
 
 printf "${GREENCOLOR}Successfully Installed certbot nginx ${NC} \n\n"
 

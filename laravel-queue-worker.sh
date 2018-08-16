@@ -32,8 +32,6 @@ sudo apt-get purge apache2 apache2-utils apache2.2-bin apache2-common
 sudo apt-get remove -y apache2*
 sudo apt-get -y autoremove
 
-sudo cp /etc/nginx/sites-available/default /etc/nginx/sites-available/default.bak
-
 printf "${YELLOWCOLOR}Installing Supervisor ${NC} \n"
 
 sudo apt-get -y install supervisor
